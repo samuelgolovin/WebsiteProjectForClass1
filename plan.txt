@@ -1,1 +1,8 @@
 This is the plan for the website project.
+
+Guillermo - Apple.html and Galaxy.html
+Samuel - About.html and Google.html
+
+both - add css to our pages to make them look good and both add to the index page
+
+commit something by friday, make at least one page.

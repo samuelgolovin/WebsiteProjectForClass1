@@ -6,3 +6,9 @@ Samuel - About.html and Google.html
 both - add css to our pages to make them look good and both add to the index page
 
 commit something by friday, make at least one page.
+
+hey man, sorry about changing everything up without asking you. I didn't realize I had done this all
+to the main branch and not created a new one to do all of the changed to.
+But hey, now we're sort of on the same page with it all being about the same in terms of
+style. But hey, if you read this, could you text me? I don't have your number saved on my phone.
+I think I gave mine to you. Or we could just talk about this tomorrow in class. No biggie!

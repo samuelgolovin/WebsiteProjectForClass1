@@ -13,14 +13,15 @@
     background-size: cover;
   }
 
-  .using-parallax {
+  .using-parallax{
     height : fit-content;
     background-image:linear-gradient(#376B91, #DEB981);
     outline: 3px solid #020301;
     outline-offset: -3px;
-    text-align: center;
     padding: 2em;
-    text-shadow: 1px 1px #fffdee;
+    text-shadow: 1px 1px #020301;
+    text-align: center;
+    color: #e9f7fe;
   }
 
   .using-parallax-footer {
@@ -33,4 +34,16 @@
     font-size: x-small;
     padding: 2em;
     text-shadow: 1px 1px #fffdee;
+  }
+
+  .product-container {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .product-container > img {
+    width: 50%;
+    box-shadow: 30px 30px #66d6eb;
+    margin-right: 50px;
   }

@@ -1,0 +1,36 @@
+/*parallax css below controls the cool scrolling effect*/
+.parallax {
+    /* The image used */
+    background-image: url("images/appleBackgroundPic.jpg");
+  
+    /* Set a specific height */
+    min-height: 25vh; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .using-parallax {
+    height : fit-content;
+    background-image:linear-gradient(#376B91, #DEB981);
+    outline: 3px solid #020301;
+    outline-offset: -3px;
+    text-align: center;
+    padding: 2em;
+    text-shadow: 1px 1px #fffdee;
+  }
+
+  .using-parallax-footer {
+    display: flex;
+    height : fit-content;
+    background-image:linear-gradient(#376B91, #DEB981);
+    outline: 3px solid #020301;
+    outline-offset: -3px;
+    text-align: center;
+    font-size: x-small;
+    padding: 2em;
+    text-shadow: 1px 1px #fffdee;
+  }

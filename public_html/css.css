@@ -43,7 +43,7 @@ nav img{
     background: #f44336;
     display: block;
     margin: auto;
-    transition: 0.5s;
+    transition: 0.25s;
 }
 .nav-links ul li a:hover:after{
     background-color: blue;
@@ -57,3 +57,4 @@ nav img{
     transform: translate(-50%,-50%);
     text-align: center;
 }
+

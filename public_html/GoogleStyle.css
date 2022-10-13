@@ -1,0 +1,152 @@
+
+               body, html{
+                   height: 100%;
+                   margin: 0;
+                   padding: 0;   
+                   font-size: 16px;
+                   font-family: "lotus", sans-serif;
+                   font-weight: 400;
+                   line-height: 1.8em;
+               }
+               .header{
+                   min-height: 25vh;
+                   width: 100%;
+                   background-image: url('../webproj/phone site/images/google-header.jpg');
+                   background-position: center;
+                   background-size: cover;
+                   position: relative;
+                   
+               }
+               nav{
+                   display: flex;
+                   padding: 2% 6%;
+                   justify-content: space-between;
+                   align-items: center;
+               }
+               nav img{
+                   width: 150px
+               }
+               .nav-links{
+                   flex: 1;
+                   text-align: center;
+               }
+               .nav-links ul li{
+                   list-style: none;
+                   display: inline-block;
+                   padding: 8px 12px;
+                   position: relative;
+               }
+               .nav-links ul li a{
+                   color: rgb(48, 216, 26);
+                   text-decoration: none;
+                   font-size: 15px
+               }
+               /*header hover effect*/
+               .nav-links ul li a::after{
+                   content: '';
+                   width: 0%;
+                   height: 2px;
+                   background: #067927;
+                   display: block;
+                   margin: auto;
+                   transition: 0.5s;
+               }
+               .nav-links ul li a:hover:after{
+                   width: 100%;
+               }
+               .img-content ul li{
+                   list-style: none;
+                   color: white;
+                   
+               }
+               .img-content{
+                   text-align: justify;
+                   width: 100px;
+               }
+               body, html {
+     height: 100%;
+   }
+/*parallax code*/
+.pimg1, .pimg2, .pimg3{
+    position: relative;
+    opacity: 0.80;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    background-attachment: fixed;
+}
+
+   .pimg1{
+    background-image: url('../webproj/phone site/images/best-phones.png');
+    min-height: 400px;
+    
+   }
+   .pimg2{
+    background-image: url('../webproj/phone site/images/best-phones.png');
+    min-height: 400px;
+   }
+   .pimg3{
+    background-image: url('../webproj/phone site/images/best-phones.png');
+    min-height: 400px;
+   }
+   
+   .section_1{
+    color: rgb(97, 97, 97);
+    font-size: 20px;
+    text-align: center;
+    left: auto;
+    padding: 50px 50px;
+    padding-right: 200px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(48, 216, 26,0.6);
+    
+   }
+   .section_1 img{
+    height: 400px;
+   }
+
+   .section_2{
+    color: rgb(83, 82, 82);
+    font-size: 20px;
+    text-align: center;
+    left: auto;
+    padding: 50px 50px;
+    padding-right: 200px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(53, 123, 173, 0.6);
+   }
+   .section_2 img{
+    height: 400px;
+   }
+
+   .section_3{
+    color: rgb(83, 82, 82);
+    font-size: 20px;
+    text-align: center;
+    left: auto;
+    padding: 50px 50px;
+    padding-right: 200px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(227, 248, 1, 0.6);
+   }
+   .section_3 img{
+    height: 400px;
+   }
+   .ptext{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 27px;
+    letter-spacing: 8px;
+   }
+
+   .ptext .border{
+    background-color: rgba(220, 20, 60, 0.504);
+    padding: 20px;
+   }

@@ -11,7 +11,7 @@
                .header{
                    min-height: 25vh;
                    width: 100%;
-                   background-image: url('../webproj/phone site/images/google-header.jpg');
+                   background-image: url('phone site/images/google-header.jpg');
                    background-position: center;
                    background-size: cover;
                    position: relative;
@@ -78,16 +78,16 @@
 }
 
    .pimg1{
-    background-image: url('../webproj/phone site/images/best-phones.png');
+    background-image: url('phone site/images/best-phones.png');
     min-height: 400px;
     
    }
    .pimg2{
-    background-image: url('../webproj/phone site/images/best-phones.png');
+    background-image: url('phone site/images/best-phones.png');
     min-height: 400px;
    }
    .pimg3{
-    background-image: url('../webproj/phone site/images/best-phones.png');
+    background-image: url('phone site/images/best-phones.png');
     min-height: 400px;
    }
    
